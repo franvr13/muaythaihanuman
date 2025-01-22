@@ -4,11 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <title>Hanuman</title>
 
   <!-- Favicons -->
-  <link href="assets/img/Logo_Hanuman-removebg-preview.png" rel="icon">
+  <link href="assets/img/Logo_Hanuman.png" rel="icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -31,17 +33,13 @@
 
 <body class="index-page">
 
-  <title>Inicio</title>
-
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
-        <img src="assets/img/Logo_Hanuman-removebg-preview.png" loading="lazy">
-      </a>
+      <h1 class="sitename fw-bold"><a href="index.html">HANUMAN</a></h1>
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#home" class="active">Inicio<br></a></li>
-          <li><a href="#about">Descúbrelo</a></li>
+          <li><a href="#about">Descúbrenos</a></li>
           <li><a href="#services">Servicios</a></li>
           <li><a href="#more">Acerca de</a></li>
           <li><a href="instalaciones.html">Instalaciones</a></li>
@@ -520,8 +518,8 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="POST" class="php-email-form" data-aos="fade-up"
-              data-aos-delay="200">
+            <form action="https://formspree.io/f/movjazql" method="POST" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200" target="_blank">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -529,7 +527,8 @@
                 </div>
 
                 <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Tu correo electrónico" required="">
+                  <input type="email" class="form-control" name="email" placeholder="Tu correo electrónico" required
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                 </div>
 
                 <div class="col-md-12">
@@ -542,7 +541,7 @@
 
                 <div class="col-md-12 text-center">
                   <div class="loading">Cargando</div>
-                  <div class="error-message"></div>
+                  <div class="error-message">Tu mensaje no se ha podido enviar, inténtalo de nuevo.</div>
                   <div class="sent-message">Tu mensaje ha sido enviado, gracias por contactar con nosotros.</div>
 
                   <button type="submit">Enviar mensaje</button>

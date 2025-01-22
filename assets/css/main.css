@@ -1771,6 +1771,13 @@ section,
   /* Add your styles here */
 }
 
+.sitename {
+  color: var(--accent-color);
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+}
+
 .footer-sitename {
   color: var(--accent-color);
 }
