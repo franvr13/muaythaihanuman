@@ -18,14 +18,20 @@
   "muay_boran": "We have been training, competing, educating ourselves, and traveling to the country of origin of our martial art for many years.",
 
   "_comment3": "Services",
+  "servicios_título": "Services",
 
   "_comment4": "About",
 
   "_comment5": "Contact",
+  "contacto": "Contact  Us",
+  "dirección": "Adress",
+  "llámanos": "Call Us",
+  "escríbenos": "Write to us",
+  "enviar_mensaje": "Send message",
 
   "_comment6": "Footer",
   "ayuda": "Help",
-  "dirección": "Address:",
+  "dirección_footer": "Address:",
   "teléfono": "Phone:",
   "email": "Email:",
   "privacidad": "Privacy Policy",
@@ -48,5 +54,20 @@
   "video_1": "Video 1",
   "video_2": "Video 2",
 
-  "_comment8": "Seminaries"
+  "_comment8": "Seminaries",
+  "galería": "Gallery",
+  "todos": "All",
+  "seminarios_1": "Seminaries",
+  "competiciones": "Competitions",
+  "seminarios_y_competiciones": "Seminaries and Competitions",
+  "seminarios_y_competiciones_descripcion": "One of our club's core activities is",
+  "seminarios_y_competiciones_descripcion_2": "the organization of seminars and competitions.",
+  "la_competición": "the competition,",
+  "como": "like",
+  "profesional_1": "professional",
+  "desde_siempre": "We have always",
+  "participación": "participated in and organized all kinds of events,",
+  "tanto": "both",
+  "nacionales": "national",
+  "internacionales": "international."
 }

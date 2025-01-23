@@ -7,3 +7,5 @@ COSAS POR HACER:
 - Arreglar preloader en instalaciones
 
 - Retocar el README.txt para mostrar en el mismo todo el progreso del proyecto junto a las tecnologías que se han usado, etc...
+
+- Adaptar la web para todo tipo de pantallas

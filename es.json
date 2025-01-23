@@ -18,14 +18,20 @@
   "muay_boran": "Son muchos los años que llevamos entrenando, compitiendo, formándonos y viajando al país origen de nuestro arte marcial.",
 
   "_comment3": "Services",
+  "servicios_título": "Servicios y Horarios",
 
   "_comment4": "About",
 
   "_comment5": "Contact",
+  "contacto": "Contacto",
+  "dirección": "Dirección",
+  "llámanos": "Llámanos",
+  "escríbenos": "Escríbenos",
+  "enviar_mensaje": "Envíar mensaje",
 
   "_comment6": "Pie de página",
   "ayuda": "Ayuda",
-  "dirección": "Dirección:",
+  "dirección_footer": "Dirección:",
   "teléfono": "Teléfono:",
   "email": "Correo electrónico:",
   "privacidad": "Política de Privacidad",
@@ -48,5 +54,20 @@
   "video_1": "Video 1",
   "video_2": "Video 2",
 
-  "_comment8": "Seminaries"
+  "_comment8": "Seminarios",
+  "galería": "Galería",
+  "todos": "Todos",
+  "seminarios_1": "Seminarios",
+  "competiciones": "Competiciones",
+  "seminarios_y_competiciones": "Seminarios y Competiciones",
+  "seminarios_y_competiciones_descripcion": "Una de las actividades esenciales de nuestro club es",
+  "seminarios_y_competiciones_descripcion_2": "la organización de seminarios y competiciones.",
+  "la_competición": "la competición,",
+  "como": "como",
+  "profesional_1": "profesional",
+  "desde_siempre": "Desde siempre hemos",
+  "participación": "participado y organizado todo tipo de eventos,",
+  "tanto": "tanto",
+  "nacionales": "nacionales",
+  "internacionales": "internacionales."
 }
