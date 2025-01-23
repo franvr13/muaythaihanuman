@@ -38,21 +38,18 @@
       <h1 class="sitename fw-bold"><a href="index.html">HANUMAN</a></h1>
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#home" class="active">Inicio<br></a></li>
-          <li><a href="#about">Descúbrenos</a></li>
-          <li><a href="#services">Servicios</a></li>
-          <li><a href="#more">Acerca de</a></li>
-          <li><a href="instalaciones.html">Instalaciones</a></li>
-          <li><a href="seminarios.html">Seminarios</a></li>
+          <li><a href="#home" data-translate="inicio" class="active">Inicio<br></a></li>
+          <li><a href="#about" data-translate="descúbrenos">Descúbrenos</a></li>
+          <li><a href="#services" data-translate="servicios">Servicios</a></li>
+          <li><a href="#more" data-translate="acerca_de">Acerca de</a></li>
+          <li><a href="instalaciones.html" data-translate="instalaciones">Instalaciones</a></li>
+          <li><a href="seminarios.html" data-translate="seminarios">Seminarios</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-      <a class="btn-getstarted" href="#contact">Apúntate</a>
-      <a class="btn-getstarted" data-bs-toggle="dropdown" href="#"><i class="bi bi-translate"></i></a>
-      <div class="dropdown-menu dropdown-menu-dark">
-        <li><a class="dropdown-item" href="#">Español</a></li>
-        <li><a class="dropdown-item" href="#">Inglés</a></li>
-      </div>
+      <a class="btn-getstarted" href="#contact" data-translate="apúntate">Apúntate</a>
+      <a class="btn-getstarted" id="languageToggle"><i class="bi bi-translate"></i></a>
+
     </div>
   </header>
 
@@ -62,12 +59,14 @@
     <section id="home" class="hero section dark-background">
 
       <img src="assets/img/muay-thai.jpg" loading="lazy" alt="" data-aos="fade-in">
-
       <div class="container">
+        <div class="hero-logo">
+          <img src="assets/img/Logo_Hanuman.png" data-aos="fade-down" data-aos-delay="100" loading="lazy"
+            class="img-fluid" alt="Hero Image">
+        </div>
         <div class="row justify-content-center text-center" data-aos="fade-down" data-aos-delay="150">
           <div class="col-xl-6 col-lg-8">
-            <h2>MUAY THAI<br>MUAY BORAN<br>KRABI KRABONG</h2>
-            <p>Entrena, crece y mejora.</p>
+            <!-- Puedes agregar más contenido aquí si es necesario -->
           </div>
         </div>
         <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="50">
@@ -88,9 +87,7 @@
             </div>
           </div>
         </div>
-
       </div>
-
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
@@ -210,7 +207,7 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="#contact" class="stretched-link">
                 <h3>Muay Thai</h3>
                 <h4>50 €/mes</h4>
               </a>
@@ -225,7 +222,7 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="#contact" class="stretched-link">
                 <h3>Muay Thai</h3>
                 <h4>40 €/mes</h4>
               </a>
@@ -240,7 +237,7 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="#contact" class="stretched-link">
                 <h3>Entrenamiento Premium</h3>
                 <h4>80 €/mes</h4>
               </a>
@@ -255,12 +252,12 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="#contact" class="stretched-link">
                 <h3>Kick Boxing</h3>
                 <h4>30€ / Mes</h4>
               </a>
               <p></p>
-              <a href="#" class="stretched-link"></a>
+              <a href="#contact" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -269,12 +266,12 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="#contact" class="stretched-link">
                 <h3>Entrenamiento personal</h3>
               </a>
               <h4>200 €/mes</h4>
               <p>2 clases a la semana</p>
-              <a href="#" class="stretched-link"></a>
+              <a href="#contact" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -283,11 +280,11 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="#contact" class="stretched-link">
                 <h3>Clase de Prueba</h3>
               </a>
               <h4>10€</h4>
-              <a href="#" class="stretched-link"></a>
+              <a href="#contact" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -296,11 +293,11 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="#contact" class="stretched-link">
                 <h3>Clase de Prueba</h3>
               </a>
               <h4>10 €</h4>
-              <a href="#" class="stretched-link"></a>
+              <a href="#contact" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -309,11 +306,11 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="#contact" class="stretched-link">
                 <h3>Bono para 5 clases</h3>
               </a>
               <h4>50 €</h4>
-              <a href="#" class="stretched-link"></a>
+              <a href="#contact" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -322,11 +319,11 @@
               <div class="icon">
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <a href="#" class="stretched-link">
+              <a href="#contact" class="stretched-link">
                 <h3>Matrícula para nuevos socios</h3>
               </a>
               <h4>30 €</h4>
-              <a href="#" class="stretched-link"></a>
+              <a href="#contact" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
