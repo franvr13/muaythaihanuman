@@ -1,10 +1,52 @@
 {
-  "_comment": "Main translations for the app",
+  "_comment": "Header",
   "inicio": "Home",
   "descúbrenos": "Discover us",
   "servicios": "Services",
   "acerca_de": "About",
   "instalaciones": "Facilities",
   "seminarios": "Seminaries",
-  "apúntate": "Sign up"
+  "apúntate": "Sign up",
+
+  "_comment2": "Discover us",
+  "muay_thai": "MUAY THAI IN IT'S PUREST FORM",
+  "discover_us_descripción": "In our facilities you will be able to train with the hand of the prestigious master",
+  "discover_us_descripción_2": "representative of our country of the",
+  "amateur": "Preparation of competitors in amateur categories, we participate in numerous national and international events.",
+  "profesional_título": "PROFESSIONAL",
+  "profesional": "With us, many professional competitors have trained and prepared, visiting us from all parts of our country and beyond.",
+  "muay_boran": "We have been training, competing, educating ourselves, and traveling to the country of origin of our martial art for many years.",
+
+  "_comment3": "Services",
+
+  "_comment4": "About",
+
+  "_comment5": "Contact",
+
+  "_comment6": "Footer",
+  "ayuda": "Help",
+  "dirección": "Address:",
+  "teléfono": "Phone:",
+  "email": "Email:",
+  "privacidad": "Privacy Policy",
+  "derechos": "All rights reserved.",
+  "web_diseñada_por": "Website Designed by",
+
+  "_comment7": "Facilities",
+  "fachada": "Facade",
+  "letrero": "Sign",
+  "vitrina": "Showcase",
+  "vista_1": "View 1",
+  "zona_de_sacos": "Sack area",
+  "zona_de_saco": "Sack area",
+  "vista_2": "View 2",
+  "esquina_ring_1": "Ring Corner 1",
+  "interior_ring": "Ring Inside",
+  "esquina_ring_2": "Ring Corner 2",
+  "zona_de_físico": "Physical Zone",
+  "zona_de_pesas": "Weight Area",
+  "video_1": "Video 1",
+  "video_2": "Video 2",
+
+  "_comment8": "Seminaries"
 }

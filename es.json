@@ -1,10 +1,52 @@
 {
-  "_comment": "Main translations for the app",
+  "_comment": "Header",
   "inicio": "Inicio",
   "descúbrenos": "Descúbrenos",
   "servicios": "Servicios",
   "acerca_de": "Acerca de",
   "instalaciones": "Instalaciones",
   "seminarios": "Seminarios",
-  "apúntate": "Apúntate"
+  "apúntate": "Apúntate",
+
+  "_comment2": "Discover us",
+  "muay_thai": "MUAY THAI EN ESTADO PURO",
+  "discover_us_descripción": "En nuestras instalaciones podrás entrenar de la mano del prestigioso maestro ",
+  "discover_us_descripción_2": "representante de nuestro país de la",
+  "amateur": "Preparación de competidores en las categorías amateur, participamos en numerosos eventos tanto nacionales como internacionales.",
+  "profesional_título": "PROFESIONAL",
+  "profesional": "Con nosotros se han preparado y entrenado numerosos competidores profesionales, que nos visitan desde todas las partes de nuestro país y de fuera de él.",
+  "muay_boran": "Son muchos los años que llevamos entrenando, compitiendo, formándonos y viajando al país origen de nuestro arte marcial.",
+
+  "_comment3": "Services",
+
+  "_comment4": "About",
+
+  "_comment5": "Contact",
+
+  "_comment6": "Pie de página",
+  "ayuda": "Ayuda",
+  "dirección": "Dirección:",
+  "teléfono": "Teléfono:",
+  "email": "Correo electrónico:",
+  "privacidad": "Política de Privacidad",
+  "derechos": "Todos los derechos reservados.",
+  "web_diseñada_por": "Web Diseñada por",
+
+  "_comment7": "Instalaciones",
+  "fachada": "Fachada",
+  "letrero": "Letrero",
+  "vitrina": "Vitrina",
+  "vista_1": "Vista 1",
+  "zona_de_sacos": "Zona de sacos",
+  "zona_de_saco": "Zona de saco",
+  "vista_2": "Vista 2",
+  "esquina_ring_1": "Esquina del ring 1",
+  "interior_ring": "Interior del ring",
+  "esquina_ring_2": "Esquina del ring 2",
+  "zona_de_físico": "Zona de físico",
+  "zona_de_pesas": "Zona de pesas",
+  "video_1": "Video 1",
+  "video_2": "Video 2",
+
+  "_comment8": "Seminaries"
 }
