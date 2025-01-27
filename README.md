@@ -50,7 +50,7 @@ Una vez configurado el proyecto:
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto está bajo la Licencia GPL-3.0 license. Consulta el archivo `LICENSE` para más detalles.
 
 ## Contacto
 
