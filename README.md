@@ -26,12 +26,14 @@
 Sigue estos pasos para configurar el proyecto en tu entorno local:
 
 1. **Clonar el repositorio**:
+
    ```bash
    git clone <URL_DEL_REPOSITORIO>
    cd HANUMAN-main
    ```
 
 2. **Configurar un servidor local**:
+
    - Si usas XAMPP o WAMP, coloca la carpeta del proyecto en el directorio `htdocs`.
    - Accede al proyecto desde tu navegador en `http://localhost/HANUMAN-main`.
 
@@ -49,13 +51,16 @@ Una vez configurado el proyecto:
 ## Tareas pendientes
 
 1. **Completar traducciones**:
+
    - Faltan las traducciones de las secciones: `services`, `about`, `contact`, y `seminaries`.
 
 2. **Mejoras en la interfaz**:
+
    - Ajustar el nombre de las pestañas según la página actual.
    - Arreglar el preloader en la página de instalaciones.
 
 3. **Adaptabilidad**:
+
    - Asegurarse de que el diseño responda correctamente en todos los dispositivos y tamaños de pantalla.
 
 4. **Documentación**:
@@ -81,3 +86,5 @@ Si tienes preguntas o sugerencias, no dudes en contactarme a través del reposit
 ---
 
 ¡Gracias por explorar **HANUMAN**!
+
+---
