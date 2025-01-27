@@ -1,6 +1,6 @@
 # HANUMAN
 
-**HANUMAN** es un proyecto web diseñado para renovar la anterior web que el cliente tenía además de ofrecer una experiencia dinámica y multilingüe. Este proyecto incluye múltiples páginas funcionales y recursos que garantizan una navegación fluida y un diseño adaptable. A continuación, se detalla todo lo necesario para comprender, instalar y contribuir al desarrollo del proyecto.
+Este es un proyecto web diseñado para renovar la anterior web que el cliente tenía, además de ofrecer una experiencia dinámica y multilingüe. Este proyecto incluye múltiples páginas funcionales y recursos que garantizan una navegación fluida y un diseño adaptable. A continuación, se detalla todo lo necesario para comprender, instalar y contribuir al desarrollo del proyecto.
 
 ## Características principales
 
@@ -8,8 +8,8 @@
 - **Páginas clave**:
   - Página principal (`index.html`).
   - Página de instalaciones (`instalaciones.html`).
-  - Política de privacidad (`privacy-policy.html`).
   - Página de seminarios (`seminarios.html`).
+  - Política de privacidad (`privacy-policy.html`).
 - **Formulario de contacto**: Implementado con `contact.php`.
 - **Recursos estáticos**: Archivos en la carpeta `assets` (imágenes, estilos CSS, y scripts JS).
 
@@ -19,7 +19,7 @@
 - **JavaScript**: Para funcionalidades dinámicas.
 - **PHP**: Gestión del formulario de contacto.
 - **JSON**: Gestión de traducciones.
-- **Visual Studio Code**: Configuración específica para el editor en la carpeta `.vscode`.
+- **Visual Studio Code**: Herramienta de desarrollo.
 
 ## Instalación y configuración
 
@@ -48,40 +48,18 @@ Una vez configurado el proyecto:
 - Explora las secciones disponibles como "Instalaciones" y "Seminarios".
 - Utiliza el formulario de contacto para enviar mensajes.
 
-## Tareas pendientes
-
-1. **Completar traducciones**:
-
-   - Faltan las traducciones de las secciones: `services`, `about`, `contact`, y `seminaries`.
-
-2. **Mejoras en la interfaz**:
-
-   - Ajustar el nombre de las pestañas según la página actual.
-   - Arreglar el preloader en la página de instalaciones.
-
-3. **Adaptabilidad**:
-
-   - Asegurarse de que el diseño responda correctamente en todos los dispositivos y tamaños de pantalla.
-
-4. **Documentación**:
-   - Mantener actualizado este archivo `README.md` con los avances y cambios futuros.
-
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Para colaborar:
-
-1. Haz un fork del repositorio.
-2. Crea una nueva rama para tu funcionalidad o corrección (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y haz commit (`git commit -m 'Descripción de los cambios'`).
-4. Envía un Pull Request para revisión.
-
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ## Contacto
 
-Si tienes preguntas o sugerencias, no dudes en contactarme a través del repositorio o abrir un issue.
+Este proyecto ha sido desarrollado por:
+
+- Francisco Villalba Roldán: https://www.linkedin.com/in/franciscovillalbaroldán/
+- Jesús Clemente Pérez: https://www.linkedin.com/in/jes%C3%BAs-clemente-p%C3%A9rez/
+
+Si tienes preguntas o sugerencias, no dudes en contactarnos a través del repositorio o abrir un issue.
 
 ---
 
