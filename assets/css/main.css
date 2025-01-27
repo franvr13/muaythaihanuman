@@ -1792,3 +1792,35 @@ section,
 .footer-info {
   color: var(--accent-color);
 }
+
+/* Responsive Design */
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .content {
+    font-size: 14px;
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    padding: 20px;
+  }
+  .content {
+    font-size: 16px;
+  }
+}
+
+/* Estilos para portátiles y ordenadores de sobremesa */
+@media (min-width: 1025px) {
+  .container {
+    padding: 30px;
+  }
+  .content {
+    font-size: 18px;
+  }
+}
