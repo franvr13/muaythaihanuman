@@ -1774,9 +1774,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
 
 .sitename {
   color: var(--accent-color);
@@ -1803,6 +1800,9 @@ section,
   .content {
     font-size: 14px;
   }
+  .icon-box {
+    margin: 10px 0;
+  }
 }
 
 /* Estilos para tablets */
@@ -1813,6 +1813,9 @@ section,
   .content {
     font-size: 16px;
   }
+  .icon-box {
+    margin: 15px 0;
+  }
 }
 
 /* Estilos para portátiles y ordenadores de sobremesa */
@@ -1822,5 +1825,8 @@ section,
   }
   .content {
     font-size: 18px;
+  }
+  .icon-box {
+    margin: 20px 0;
   }
 }
