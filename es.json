@@ -6,6 +6,7 @@
   "acerca_de": "Acerca de",
   "instalaciones": "Instalaciones",
   "seminarios": "Seminarios",
+  "eventos": "Eventos",
   "apúntate": "Apúntate",
 
   "_comment2": "Discover us",
@@ -102,5 +103,12 @@
   "participación": "participado y organizado todo tipo de eventos,",
   "tanto": "tanto",
   "nacionales": "nacionales",
-  "internacionales": "internacionales."
+  "internacionales": "internacionales.",
+
+  "_comment9": "Eventos",
+  "próximos_eventos": "Próximos Eventos",
+  "descripción_apartado_eventos": "Aquí encontrarás toda la información sobre los próximos eventos.",
+  "carteles": "Carteles",
+  "próximamente": "Próximamente",
+  "entradas": "Entradas"
 }

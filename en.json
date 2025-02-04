@@ -6,6 +6,7 @@
   "acerca_de": "About",
   "instalaciones": "Facilities",
   "seminarios": "Seminaries",
+  "eventos": "Events",
   "apúntate": "Sign up",
 
   "_comment2": "Discover us",
@@ -102,5 +103,12 @@
   "participación": "participated in and organized all kinds of events,",
   "tanto": "both",
   "nacionales": "national",
-  "internacionales": "international."
+  "internacionales": "international.",
+
+  "_comment9": "Events",
+  "próximos_eventos": "Upcoming Events",
+  "descripción_apartado_eventos": "In this section you will find all the information about the events that we will organize in the future.",
+  "carteles": "Posters",
+  "próximamente": "Soon",
+  "entradas": "Tickets"
 }

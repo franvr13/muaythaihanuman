@@ -1772,6 +1772,55 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Events Section
+--------------------------------------------------------------*/
+
+.custom-img-size {
+  width: 100%; /* La imagen tomará el 100% del ancho del contenedor */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  max-width: 500px; /* Puedes ajustar este valor según tus necesidades */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .custom-img-size {
+    max-width: 100%; /* La imagen tomará el 100% del ancho del contenedor en dispositivos móviles */
+  }
+  .order-1 {
+    order: 1 !important; /* Asegura que la imagen esté encima del texto */
+  }
+  .order-2 {
+    order: 2 !important; /* Asegura que el texto esté debajo de la imagen */
+  }
+}
+
+.entradas-btn,
+.entradas-btn:focus {
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0px;
+  padding: 6px 0px;
+  border-radius: 8px;
+  transition: 0.4s;
+  border: 2px solid var(--accent-color);
+  display: inline-block;
+  text-align: center;
+  min-width: 80px;
+}
+
+.entradas-btn:hover,
+.entradas-btn:focus:hover {
+  color: black;
+  background: var(--nav-dropdown-background-color);
+}
+
+/*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
 
