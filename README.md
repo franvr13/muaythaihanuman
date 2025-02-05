@@ -1,6 +1,6 @@
 # HANUMAN
 
-Este es un proyecto web diseñado para renovar la anterior web que el cliente tenía, además de ofrecer una experiencia dinámica y multilingüe. Este proyecto incluye múltiples páginas funcionales y recursos que garantizan una navegación fluida y un diseño adaptable. A continuación, se detalla todo lo necesario para comprender, instalar y contribuir al desarrollo del proyecto.
+Este es un proyecto web diseñado para renovar la anterior web que el cliente tenía, además de ofrecer una experiencia dinámica y multilingüe. Este proyecto incluye múltiples páginas funcionales y recursos que garantizan una navegación fluida y un diseño adaptable. A continuación, se detalla todo lo necesario para comprender, instalar y contribuir al desarrollo del proyecto. Además este proyecto seguirá en constante mantenimiento y mejora.
 
 ## Características principales
 
