@@ -1678,6 +1678,27 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
+.media-item {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .media-item {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .media-item {
+    max-width: 800px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
