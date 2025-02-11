@@ -1738,13 +1738,13 @@ section,
   }
 }
 
-@media (min-width: 568px) and (max-width: 1199px) {
+@media (min-width: 568px) and (max-width: 768px) {
   .portfolio-item {
     margin-bottom: 30px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .portfolio-item {
     margin-bottom: 40px;
   }
