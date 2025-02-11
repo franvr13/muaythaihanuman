@@ -1706,7 +1706,6 @@ section,
 }
 
 .media-item {
-  width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -1733,19 +1732,19 @@ section,
   display: block;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .portfolio-item {
     margin-bottom: 20px;
   }
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .portfolio-item {
     margin-bottom: 30px;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1200px) {
   .portfolio-item {
     margin-bottom: 40px;
   }
