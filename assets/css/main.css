@@ -1732,24 +1732,6 @@ section,
   display: block;
 }
 
-@media (max-width: 767px) {
-  .portfolio-item {
-    margin-bottom: 20px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-  .portfolio-item {
-    margin-bottom: 30px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .portfolio-item {
-    margin-bottom: 40px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
