@@ -1727,24 +1727,25 @@ section,
 }
 
 .video-responsive {
-  width: 100%;
+  width: auto;
   height: auto;
   max-width: 100%;
+  display: block;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
   .portfolio-item {
     margin-bottom: 20px;
   }
 }
 
-@media (min-width: 568px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   .portfolio-item {
     margin-bottom: 30px;
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 769px) {
   .portfolio-item {
     margin-bottom: 40px;
   }
