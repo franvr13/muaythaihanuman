@@ -1726,6 +1726,30 @@ section,
   }
 }
 
+.video-responsive {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 576px) {
+  .portfolio-item {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1199px) {
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 769px) {
+  .portfolio-item {
+    margin-bottom: 40px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
