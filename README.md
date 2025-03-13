@@ -57,7 +57,6 @@ Este proyecto está bajo la Licencia GPL-3.0 license. Consulta el archivo `LICEN
 Este proyecto ha sido desarrollado por:
 
 - Francisco Villalba Roldán: https://www.linkedin.com/in/franciscovillalbaroldán/
-- Jesús Clemente Pérez: https://www.linkedin.com/in/jes%C3%BAs-clemente-p%C3%A9rez/
 
 Si tienes preguntas o sugerencias, no dudes en contactarnos a través del repositorio o abrir un issue.
 
