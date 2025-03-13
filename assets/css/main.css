@@ -910,8 +910,6 @@ section,
 .hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 70%);
-  border-radius: 8px;
   height: 100%;
   text-align: center;
   display: flex;
