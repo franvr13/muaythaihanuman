@@ -3,11 +3,15 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Muay Thai Hanuman Córdoba. Conoce nuestros servicios, instalaciones y mucho más." />
   <meta name="keywords" content="" />
 
   <title>Muay Thai Hanuman Córdoba</title>
+
+  <!-- Pre-carga de recursos críticos -->
+  <link rel="preload" href="assets/css/main.css" as="style">
+  <link rel="preload" href="assets/js/main.js" as="script">
 
   <!-- Favicons -->
   <link href="assets/img/Logo_Hanuman.png" loading="lazy" rel="icon">
@@ -730,7 +734,7 @@
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 
 </body>
 
