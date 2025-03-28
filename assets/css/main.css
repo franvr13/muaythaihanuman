@@ -175,22 +175,27 @@ h6 {
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
+  background-color: var(--accent-color);
   cursor: pointer;
-  font-size: 15px; /* Tamaño de fuente por defecto */
-  margin: 0px; /* Reduce el margen para acercar los botones */
-  padding: 6px 0px; /* Espaciado interno por defecto */
+  font-size: 15px;
+  margin: 0px;
+  padding: 8px 20px;
   border-radius: 8px;
-  transition: 0.4s;
+  transition: all 0.3s ease;
   border: 2px solid var(--accent-color);
   display: inline-block;
-  text-align: center; /* Asegura que el texto esté centrado */
-  min-width: 80px; /* Define un ancho mínimo uniforme */
+  text-align: center;
+  min-width: 100px;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
-  color: #333;
-  background: var(--accent-color);
+  background-color: transparent;
+  color: var(--accent-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 1200px) {
@@ -200,10 +205,9 @@ h6 {
 
   .header .btn-getstarted {
     order: 2;
-    font-size: 12px; /* Cambia el tamaño de la fuente */
-    margin-right: 10px; /* Aumenta el margen para separar los botones */
-    padding: 6px 0px; /* Cambia el padding para aumentar el tamaño del botón */
-    width: 80px;
+    font-size: 14px;
+    padding: 6px 15px;
+    min-width: 90px;
   }
 
   .header .navmenu {
