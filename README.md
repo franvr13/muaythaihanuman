@@ -17,7 +17,6 @@ Este es un proyecto web diseñado para renovar la anterior web que el cliente te
 
 - **HTML5** y **CSS3**: Para la estructura y el diseño de las páginas.
 - **JavaScript**: Para funcionalidades dinámicas.
-- **PHP**: Gestión del formulario de contacto.
 - **JSON**: Gestión de traducciones.
 - **Visual Studio Code**: Herramienta de desarrollo.
 
