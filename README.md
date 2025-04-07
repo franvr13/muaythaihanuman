@@ -10,7 +10,6 @@ Este es un proyecto web diseñado para renovar la anterior web que el cliente te
   - Página de instalaciones (`instalaciones.html`).
   - Página de seminarios (`seminarios.html`).
   - Política de privacidad (`privacy-policy.html`).
-- **Formulario de contacto**: Implementado con `contact.php`.
 - **Recursos estáticos**: Archivos en la carpeta `assets` (imágenes, estilos CSS, y scripts JS).
 
 ## Tecnologías utilizadas
