@@ -1,50 +1,42 @@
-# HANUMAN
+# 🥊 Hanuman - Sitio Web Oficial
 
-Este es un proyecto web diseñado para renovar la anterior web que el cliente tenía, además de ofrecer una experiencia dinámica y multilingüe. Este proyecto incluye múltiples páginas funcionales y recursos que garantizan una navegación fluida y un diseño adaptable. A continuación, se detalla todo lo necesario para comprender, instalar y contribuir al desarrollo del proyecto. Además este proyecto seguirá en constante mantenimiento y mejora.
+Este proyecto es un sitio web estático desarrollado para **HANUMAN**, un gimnasio de artes marciales Muay Thai. 
 
-## Características principales
+## 🌐 Tecnologías utilizadas
 
-- **Multilingüe**: Soporte para múltiples idiomas mediante archivos JSON (`en.json`, `es.json`).
-- **Páginas clave**:
-  - Página principal (`index.html`).
-  - Página de instalaciones (`instalaciones.html`).
-  - Página de seminarios (`seminarios.html`).
-  - Política de privacidad (`privacy-policy.html`).
-- **Recursos estáticos**: Archivos en la carpeta `assets` (imágenes, estilos CSS, y scripts JS).
+- HTML5
+- CSS3 (archivo personalizado en `assets/css/main.css`)
+- PHP (para el formulario de contacto)
+- JSON (para contenido multilingüe)
+- Recursos gráficos optimizados en formato `.webp`
 
-## Tecnologías utilizadas
+## 📁 Estructura del proyecto
 
-- **HTML5** y **CSS3**: Para la estructura y el diseño de las páginas.
-- **JavaScript**: Para funcionalidades dinámicas.
-- **JSON**: Gestión de traducciones.
-- **Visual Studio Code**: Herramienta de desarrollo.
-
-## Instalación y configuración
-
-Sigue estos pasos para configurar el proyecto en tu entorno local:
-
-1. **Clonar el repositorio**:
-
-   ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd HANUMAN-main
-   ```
-
-2. **Configurar un servidor local**:
-
-   - Si usas XAMPP o WAMP, coloca la carpeta del proyecto en el directorio `htdocs`.
-   - Accede al proyecto desde tu navegador en `http://localhost/HANUMAN-main`.
-
-3. **Configurar traducciones**:
-   - Los archivos de idioma están en `en.json` y `es.json`. Asegúrate de añadir traducciones pendientes en las secciones `services`, `about`, `contact` y `seminaries`.
-
-## Uso
-
-Una vez configurado el proyecto:
-
-- Navega a la página principal (`index.html`).
-- Explora las secciones disponibles como "Instalaciones" y "Seminarios".
-- Utiliza el formulario de contacto para enviar mensajes.
+```
+Hanuman-main/
+├── index.html                # Página principal
+├── eventos.html              # Página de eventos
+├── seminarios.html           # Página de seminarios
+├── instalaciones.html        # Página de instalaciones
+├── privacy-policy.html       # Política de privacidad
+├── contact.php               # Script PHP para el formulario de contacto
+├── en.json                   # Traducción al inglés
+├── es.json                   # Traducción al español
+├── LICENSE                   # Licencia del proyecto
+├── README.md                 # Documentación del proyecto
+├── .vscode/
+│   └── settings.json         # Configuración para VSCode
+└── assets/
+    ├── css/
+    │   └── main.css          # Estilos principales personalizados
+    └── img/
+        ├── Clase1.webp
+        ├── Logo_Hanuman.webp
+        ├── muay-thai.webp
+        ├── ...
+        └── eventos/
+            └── ...
+```
 
 ## Licencia
 
@@ -57,10 +49,8 @@ Este proyecto ha sido desarrollado por:
 - Francisco Villalba Roldán: https://www.linkedin.com/in/franciscovillalbaroldán/
 - Jesús Clemente Pérez: https://www.linkedin.com/in/jesús-clemente-pérez/
 
-Si tienes preguntas o sugerencias, no dudes en contactarnos a través del repositorio o abrir un issue.
-
 ---
 
-¡Gracias por explorar **HANUMAN**!
+¡Gracias por visitar [HANUMAN](https://muaythaihanuman.es)!
 
 ---
