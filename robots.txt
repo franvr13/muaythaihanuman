@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Mapa del sitio para rastreadores
+Sitemap: https://muaythaihanuman.es/sitemap.xml
