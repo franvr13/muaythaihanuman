@@ -163,19 +163,60 @@
   /**
    * Correct scrolling position upon page load for URLs containing hash links.
    */
-  window.addEventListener('load', function (e) {
-    if (window.location.hash) {
-      if (document.querySelector(window.location.hash)) {
-        setTimeout(() => {
-          let section = document.querySelector(window.location.hash);
-          let scrollMarginTop = getComputedStyle(section).scrollMarginTop;
-          window.scrollTo({
-            top: section.offsetTop - parseInt(scrollMarginTop),
-            behavior: 'smooth'
-          });
-        }, 100);
+  /**
+   * Smooth scroll to a section taking into account a fixed header.
+   * @param {string} hash e.g. '#contact'
+   */
+  function scrollToHash(hash) {
+    try {
+      const section = document.querySelector(hash);
+      if (!section) return false;
+      // Prefer CSS scroll-margin-top if set, otherwise fallback to header height
+      const computed = getComputedStyle(section);
+      const scrollMarginTop = computed && computed.scrollMarginTop ? parseInt(computed.scrollMarginTop) : 0;
+      if (scrollMarginTop) {
+        window.scrollTo({ top: section.offsetTop - scrollMarginTop, behavior: 'smooth' });
+      } else {
+        const header = document.querySelector('#header');
+        const headerHeight = header ? header.offsetHeight : 0;
+        const offset = Math.max(0, headerHeight - 10); // small extra offset
+        const top = section.getBoundingClientRect().top + window.pageYOffset - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
       }
+      return true;
+    } catch (err) {
+      return false;
     }
+  }
+
+  // On page load, if the URL contains a hash, attempt to scroll to it smoothly.
+  window.addEventListener('load', function () {
+    if (window.location.hash) {
+      // Delay slightly to allow layout/AOS/isotope to initialize and sizes to settle
+      setTimeout(() => {
+        scrollToHash(window.location.hash);
+      }, 200);
+    }
+  });
+
+  // Intercept clicks on any links that point to #contact to ensure reliable behavior
+  document.querySelectorAll('a[href$="#contact"]').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      // If link leads to same page (already on index), do smooth scroll without navigation
+      const current = window.location.pathname.split('/').pop();
+      const isIndex = current === '' || current === 'index.html';
+      if (isIndex) {
+        e.preventDefault();
+        // Use the helper to scroll; update history so hash is visible
+        history.replaceState(null, '', '#contact');
+        scrollToHash('#contact');
+      } else {
+        // Not on index: let browser navigate to index.html#contact (force full load)
+        // but ensure we use an explicit path to avoid relative issues
+        // No preventDefault so navigation occurs normally
+        link.setAttribute('href', 'index.html#contact');
+      }
+    }, { passive: true });
   });
 
   /**
